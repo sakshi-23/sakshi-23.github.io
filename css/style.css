@@ -99,14 +99,22 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav {
     padding: 20px 0;
   }
+
+  .fh5co-nav .fh5co-top-logo {
+  width: 50%;
+}
+
 }
 .fh5co-nav .fh5co-top-logo,
 .fh5co-nav .fh5co-top-menu,
 .fh5co-nav .fh5co-top-social {
   float: left;
 }
-.fh5co-nav .fh5co-top-logo {
-  width: 20%;
+
+@media screen and (min-width: 768px) {
+    .fh5co-nav .fh5co-top-logo {
+      width: 20%;
+    }
 }
 .fh5co-nav .fh5co-top-menu {
   width: 60%;
@@ -405,7 +413,6 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   height: 300px;
-  margin-bottom: 40px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -422,12 +429,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
 
 }
-@media screen and (max-width: 768px) {
-  .work .work-grid .inner {
-    opacity: 1;
-    background: rgba(237, 235, 232, 0.7);
-  }
-}
+
 .work .work-grid .inner .desc {
   display: table-cell;
   vertical-align: middle;
@@ -1279,3 +1281,11 @@ border: 3px solid #aaaaaa;
     font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
+
+#fh5co-work .col-md-4.text-center.animate-box{
+    margin-bottom:40px;
+}
+@media screen and (min-width: 768px) {
+  .title-project {
+    opacity: 0;
+  }
