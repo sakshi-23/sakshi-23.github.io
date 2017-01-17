@@ -1287,5 +1287,5 @@ border: 3px solid #aaaaaa;
 }
 @media screen and (min-width: 768px) {
   .title-project {
-    opacity: 0;
+    display: none;
   }
