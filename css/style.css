@@ -57,7 +57,7 @@ a:hover, a:active, a:focus {
   color: #d3af82;
   outline: none;
   text-decoration: none;
-  font-weight:bold
+  /*font-weight:bold*/
 }
 
 p {
@@ -427,6 +427,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+   font-weight: normal!important;
+
 
 }
 
@@ -441,7 +443,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 5px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   line-height: 24px;
 }
 .work .work-grid .inner .desc h3 a {
