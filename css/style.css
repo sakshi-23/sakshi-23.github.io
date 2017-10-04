@@ -122,14 +122,23 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .fh5co-top-social {
   width: 20%;
 }
+
+
 .fh5co-nav #fh5co-logo {
-  font-size: 25px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (min-width: 500px) {
+    .fh5co-nav #fh5co-logo {
+      font-size: 25px!important;
+      }
+    }
+
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
   padding: 0;

@@ -196,8 +196,14 @@ h1, h2, h3, h4, h5, h6, figure {
 	.fh5co-top-social {
 		width: 20%;
 	}
-	#fh5co-logo {
-		font-size: 25px;
+	
+		@media screen and (min-width: 500px) {
+		#fh5co-logo {
+			font-size: 15px;
+			}
+		}
+		#fh5co-logo{
+		font-size: 15px;
 		margin: 0;
 		padding: 0;
 		text-transform: uppercase;
